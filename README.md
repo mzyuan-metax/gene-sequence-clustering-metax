@@ -1,3 +1,11 @@
+# Build on HPCC
+
+Please see the HPCC guide.
+
+- [BUILD_HPCC.md](https://github.com/mzyuan-metax/GASAL2-metax/blob/master-metax/BUILD_HPCC.md)
+
+
+---
 # Introduction
 nGIA is an accurate and fast gene sequence clustering too.
 It uses greedy incremental clustering algorithm, the similarity of sequences is determined by alignment, and filters are added before alignment.
