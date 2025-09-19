@@ -337,7 +337,8 @@ const float similarity, int32_t *jobs, const int32_t jobCount){
   uint32_t length2 = read[0];  // 剩余序列长度
   uint32_t netLength1 = represent[1];  // 代表序列净长度
   uint32_t netLength2 = read[1];  // 剩余序列净长度
-  uint32_t line[2048];  // 每行结果
+  // uint32_t line[2048];  // 每行结果
+  uint32_t line[512];  // 每行结果
   memset(line, 0xFF, (netLength1+31)/32*sizeof(uint32_t));  // 0:匹配 1:不匹配
   uint32_t Rows[entropy] = {0};  // 从行取的32个碱基/氨基酸
   uint32_t Cols[entropy] = {0};  // 从列取的32个碱基/氨基酸

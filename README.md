@@ -1,3 +1,8 @@
+# Build ON HPCC
+
+Please see the [BUILD_HPCC.md](BUILD_HPCC.md)
+
+---
 # Introduction
 nGIA is an accurate and fast gene sequence clustering too.
 It uses greedy incremental clustering algorithm, the similarity of sequences is determined by alignment, and filters are added before alignment.
